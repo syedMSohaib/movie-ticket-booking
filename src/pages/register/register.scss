@@ -1,3 +1,51 @@
 page-register {
 
+    font-family: 'poppins';
+
+    h3{
+        font-size: 18px;
+    }
+
+    .form-container{ 
+        margin-top: 8%;
+        padding-left: 4%;
+        padding-right: 4%;
+        ion-item{
+            background: #f4f4f8;
+            border-radius: 27px;
+            margin-bottom: 12px;
+            font-size: 13px;
+
+            ion-input{
+                border: none;
+            }
+
+            ion-icon{
+                padding-left: 2px;                
+            }
+        }
+        .registerbtn{
+            background-color: #7c42fb;
+            width: 100%;
+            margin-top: 3%;
+        }
+ 
+        .login-cont{
+            position: fixed;
+            bottom: 21px;
+            width: 100%;
+            p{
+                color: #424242;
+                font-weight: bold;
+                a{
+                    text-decoration: none;
+                    color: #7c42fb;
+                }    
+            }            
+        }
+    }
+
+    .item-inner{
+        border-bottom: white !important;
+    }
 }

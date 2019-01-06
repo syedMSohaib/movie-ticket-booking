@@ -22,4 +22,18 @@ export class RegisterPage {
     console.log('ionViewDidLoad RegisterPage');
   }
 
+  goback(){
+    this.navCtrl.pop();
+  }
+
+  performRegistration(){
+    this.navCtrl.push('HomePage');
+  }
+
+  login(){
+    this.navCtrl.push('LoginPage');
+  }
+
+  
 }
+
