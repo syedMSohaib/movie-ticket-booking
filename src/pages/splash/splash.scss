@@ -1,0 +1,42 @@
+page-splash {
+    ion-content.bg{
+        background: url(../assets/images/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    ion-content {
+        .logo-container {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 100%;
+        }
+        img{
+            height: 24vh;
+            vertical-align: middle;
+        }
+        p{
+            color: white;
+        }
+        .no-scroll{
+            overflow: hidden;            
+        }
+    }
+
+
+       
+    // .logo-container img{
+    //     // height: 24vh;
+    //     // display:block;
+    //     // margin:auto;
+    //     // width: auto;
+    //     vertical-align: middle;
+
+    // }
+    // .logo-container{
+    //     height: 24vh;
+    //     text-align: center;
+    // }
+}

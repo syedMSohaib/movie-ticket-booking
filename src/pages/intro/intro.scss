@@ -1,0 +1,33 @@
+page-intro {
+
+    ion-content .no-scroll {
+        overflow: hidden;
+    }
+    button{
+        width: 100%;
+        text-align: left;
+        span{
+            font-family: 'Poppins';
+            font-size: 13px;
+            padding-left: 5px;
+        }
+        
+    }
+    .action-container{
+        padding: 7%;
+    }
+    .fbbtn{
+        background-color:#4872BA;        
+    }
+    
+    .googlebtn{
+        background-color:#F45C4C;        
+    }
+    .emailbtn{
+        background-color: #fff;
+        border: 1px solid #c8c7cc;
+        color: #424242;
+    }
+    
+
+}
