@@ -1,3 +1,82 @@
 page-home {
+    ion-content{
+        font-family: 'Poppins';
+        .top-header{
+            margin-top: 7%;
+            .avatar{
+                float: right;
+                margin-top: -4px;                
+            }
+            ion-select{
+                margin-left: -20%;
+                min-width: 113px;
+                font-weight: bold;
+            }
+            .titlegrid{
+                padding-bottom: 0px;
+            }
+            .location{
+                color: #999;
+                padding-top: 0px;
+                margin-top: -8%;                
+            }
+        }
+        ion-slides{
+            padding-left: 0px;
+            z-index: -1;
+            ion-slide{
+                img{
+                    border-radius: 12px;
+                }
+            }    
+        }
+        .viewall{
+            text-align: right;
+        }
+        
+        .allMoviesslides{
+            ion-slide.movies{
+                img{
+                    width: 80px;
+                }
+                .movie-title{
+                    font-size: 12px;
+                    text-align: left;
+                    padding-left: 18px;
+                    margin-top: 4px;
+                    white-space: nowrap; 
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                span{
+                    display: block;
+                    text-align: left;
+                    margin-left: 18px;
+                    margin-top: -8px;
+                    font-size: 11px;
+                    color: rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
+
+
+    }
+
+    // .swiper-slide-next{
+    //     margin-left: -31px;
+    //     z-index: -1;
+    //     img{
+    //         height: 368px;
+    //         position: absolute;
+    //         left: -206px;
+    //         top: 16px;
+    //         opacity: 0.4;
+    //     }
+    // }
+
+    
+    // .swiper-slide-active{
+    //     width: 280px !important;
+    // }
 
 }

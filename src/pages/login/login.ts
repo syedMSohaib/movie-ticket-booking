@@ -28,7 +28,7 @@ export class LoginPage {
   }
 
   performLogin(){
-    this.navCtrl.push("HomePage");
+    this.navCtrl.push("TabPage");
   }
 
   register(){

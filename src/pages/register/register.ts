@@ -27,7 +27,7 @@ export class RegisterPage {
   }
 
   performRegistration(){
-    this.navCtrl.push('HomePage');
+    this.navCtrl.push('TabPage');
   }
 
   login(){

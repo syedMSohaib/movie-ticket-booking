@@ -34,7 +34,7 @@ export class MyApp {
 
   initializeApp(){
     this.platform.ready().then(() => {
-      this.rootPage = "IntroPage";
+      this.rootPage = "TabPage";
       
       this.events.subscribe('user:login', (params) => {
         console.log("In login event", params);
@@ -70,5 +70,7 @@ export class MyApp {
   HomePage() {
     this.nav.setRoot("HomePage");
   }
+
+
 }
 
